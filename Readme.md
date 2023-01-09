@@ -1,2 +1,1 @@
-Teste Git
-Alteração
+Realização de landing page usando git
