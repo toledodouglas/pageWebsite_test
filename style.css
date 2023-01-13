@@ -1,5 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Pacifico&family=Patua+One&family=Poppins:wght@400;600;700&display=swap');
 
-body{
-    background-color: pink;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/paisagem.svg);
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    height: 75px;
+    color: black;
+    background: gray;
+    opacity: 0.75;
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    margin-left: 22%;
+    top: 100%;
+}
+
+.img{
+    padding-left: 11%;
+    height: 100px;
+    width: 100px;
+}
+
+.nav--{
+    padding-right: 55px;
+}
+
+.log{
+    margin-left: 85%;  
+}
+
+#signUp{
+    margin-left: 90%;
+
+}
+
+.main{
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+#title--principal{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 42px;
+    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.1px black;
+}
+
+#title--secundario{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 82px;
+    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.1px black; 
+    padding-bottom:
 }
