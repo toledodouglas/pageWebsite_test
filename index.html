@@ -5,28 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
     <title>Landing-Page</title>
 </head>
 
 <body>
-    <header class="header">
-        <img src="../pageGitHub/img/logotipo.png">
-        <nav class="nav">
-            <a class="nav--">Trips</a>
-            <a class="nav--">Pricing</a>
-            <a class="nav--">About us</a>
-            <a class="nav--">Contact &amp; FAQ'S</a>
-        </nav>
-        <a class="login">Login</a>
-        <a class="signUP">Sign up</a>
-    </header>
-    
-    <main>
-       <p class="title" id="title--principal">UK Hiking &amp; Walking Trips</p>
-       <p class="title" id="title--secundario">For the adventurer</p> 
-       <a class="opçoes" id="moreInfo">More info</a>
-       <a class="opçoes" id="mostPopular"></a>>Most popular</a>
+
+    <div class="div--header">
+        <header class="header">
+            <img class="img" src="../img/logotipo.png">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav--">Trips</a></li>
+                    <li><a href="#" class="nav--">Pricing</a></li>
+                    <li><a href="#" class="nav--">About us</a></li>
+                    <li><a href="#" class="nav--">Contact &amp; FAQ'S</a></li>
+                </ul>
+            </nav>
+            <div class="gerenciar">
+                <a href="#" class="log" id="login">Login</a>
+                <button class="log" id="signUp">Sign up</button>
+            </div>
+        </header>
+    </div>
+
+    <main class="main">
+        <p class="title" id="title--principal">UK Hiking &amp; Walking Trips</p>
+        <p class="title" id="title--secundario">For the adventurer</p>
+        <div class="mainButton">
+            <button class="opçoes" id="moreInfo">More Info</button>
+            <a class="opçoes" id="mostPopular">Most Popular</a>
+        </div>
     </main>
+    
 </body>
 
 </html>
