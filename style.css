@@ -12,6 +12,8 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+
+
 .header {
     height: 75px;
     color: #FFFFFF;
@@ -29,6 +31,13 @@ body {
     margin-top: 1.8rem;
 }
 
+.nav-list a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
 
 .img {
     height: 100px;
@@ -39,7 +48,14 @@ body {
     display: flex;
     margin-top: 1.8rem;
     justify-content: flex-end;
+    
+}
 
+.gerenciar a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #signUp {
@@ -52,6 +68,7 @@ body {
     margin-left: 35px;
     margin-top: -9px;
 }
+
 
 .main {
     margin-top: 20%;
@@ -80,7 +97,7 @@ body {
 }
 
 #moreInfo {
-    width: 130px;
+    width: 120px;
     height: 40px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -88,9 +105,9 @@ body {
 }
 
 #mostPopular {
-    width: 130px;
+    width: 150px;
     height: 40px;
-    padding: 7.5px;
+    padding: 9.5px;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     color: #FFFFFF;
